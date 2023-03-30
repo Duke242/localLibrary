@@ -1,6 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import mongoose from 'mongoose'
-mongoose.connect(process.env.MONGO_URL);
+import mongoose from "../../lib/mongoose";
 
 
 export default async function handler(req, res) {
